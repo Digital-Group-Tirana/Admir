@@ -3,11 +3,11 @@
 # earlier versions of Drupal are tracked in `community/PHP/`
 
 # Ignore configuration files that may contain sensitive information
-web/sites/default/*/*settings*.php
-web/sites/default/*/*services*.yml
+web/sites/*/*settings*.php
+web/sites/*/*services*.yml
 
 # Ignore paths that may contain user-generated content
-web/sites/default/*/files
+web/sites/*/files
 web/sites/*/public
 web/sites/*/private
 web/sites/*/files-public
@@ -30,7 +30,7 @@ web/sites/example.sites.php
 web/sites/example.settings.local.php
 web/sites/development.services.yml
 web/themes/README.txt
-web/vendor
+/vendor
 web/.csslintrc
 web/.editorconfig
 web/.eslintignore
